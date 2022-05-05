@@ -14,7 +14,7 @@ public class TwoValueSum {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int inputArray[] = {3,5,2,6,3,-8,-16};
-		int targetSum = 8;
+		int targetSum = 8; //static value
 		Predicate<Integer> p = f->(f == targetSum);
 		Set<String> returnArr = new HashSet<String>();
 		for(int i = 0; i < inputArray.length;i++) {
